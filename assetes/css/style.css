@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.2s;
+}
+
+.hero__banner {
+    background-image: url(../img/gallery-13.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    text-align: center;
+}
+
+.container-image {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 1rem;
+    height: 100vh;
+    padding: 2rem;
+}
+
+.container-image img {
+    width: 15rem;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 10px #000;
+    cursor: pointer;
+}
